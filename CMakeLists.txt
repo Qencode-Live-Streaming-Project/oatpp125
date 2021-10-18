@@ -55,54 +55,54 @@ message("OATPP_COMPAT_BUILD_NO_THREAD_LOCAL=${OATPP_COMPAT_BUILD_NO_THREAD_LOCAL
 
 ## Set definitions ###############################################################################
 
-if(OATPP_DISABLE_ENV_OBJECT_COUNTERS)
+if (OATPP_DISABLE_ENV_OBJECT_COUNTERS)
     add_definitions(-DOATPP_DISABLE_ENV_OBJECT_COUNTERS)
-endif()
+endif ()
 
-if(OATPP_DISABLE_POOL_ALLOCATIONS)
-    add_definitions (-DOATPP_DISABLE_POOL_ALLOCATIONS)
-endif()
+if (OATPP_DISABLE_POOL_ALLOCATIONS)
+    add_definitions(-DOATPP_DISABLE_POOL_ALLOCATIONS)
+endif ()
 
 set(AUTO_VALUE AUTO)
-if(NOT OATPP_THREAD_HARDWARE_CONCURRENCY STREQUAL AUTO_VALUE)
-    add_definitions (-DOATPP_THREAD_HARDWARE_CONCURRENCY=${OATPP_THREAD_HARDWARE_CONCURRENCY})
-endif()
+if (NOT OATPP_THREAD_HARDWARE_CONCURRENCY STREQUAL AUTO_VALUE)
+    add_definitions(-DOATPP_THREAD_HARDWARE_CONCURRENCY=${OATPP_THREAD_HARDWARE_CONCURRENCY})
+endif ()
 
-add_definitions (
-    -DOATPP_THREAD_DISTRIBUTED_MEM_POOL_SHARDS_COUNT=${OATPP_THREAD_DISTRIBUTED_MEM_POOL_SHARDS_COUNT}
+add_definitions(
+        -DOATPP_THREAD_DISTRIBUTED_MEM_POOL_SHARDS_COUNT=${OATPP_THREAD_DISTRIBUTED_MEM_POOL_SHARDS_COUNT}
 )
 
-if(OATPP_COMPAT_BUILD_NO_THREAD_LOCAL)
+if (OATPP_COMPAT_BUILD_NO_THREAD_LOCAL)
     add_definitions(-DOATPP_COMPAT_BUILD_NO_THREAD_LOCAL)
-endif()
+endif ()
 
-if(OATPP_COMPAT_BUILD_NO_SET_AFFINITY)
+if (OATPP_COMPAT_BUILD_NO_SET_AFFINITY)
     add_definitions(-DOATPP_COMPAT_BUILD_NO_SET_AFFINITY)
-endif()
+endif ()
 
-if(OATPP_DISABLE_LOGV)
+if (OATPP_DISABLE_LOGV)
     add_definitions(-DOATPP_DISABLE_LOGV)
-endif()
+endif ()
 
-if(OATPP_DISABLE_LOGD)
+if (OATPP_DISABLE_LOGD)
     add_definitions(-DOATPP_DISABLE_LOGD)
-endif()
+endif ()
 
-if(OATPP_DISABLE_LOGI)
+if (OATPP_DISABLE_LOGI)
     add_definitions(-DOATPP_DISABLE_LOGI)
-endif()
+endif ()
 
-if(OATPP_DISABLE_LOGW)
+if (OATPP_DISABLE_LOGW)
     add_definitions(-DOATPP_DISABLE_LOGW)
-endif()
+endif ()
 
-if(OATPP_DISABLE_LOGE)
+if (OATPP_DISABLE_LOGE)
     add_definitions(-DOATPP_DISABLE_LOGE)
-endif()
+endif ()
 
-if(CMAKE_COMPILER_IS_GNUCXX AND ${CMAKE_CXX_COMPILER_VERSION} VERSION_LESS 5.0)
+if (CMAKE_COMPILER_IS_GNUCXX AND ${CMAKE_CXX_COMPILER_VERSION} VERSION_LESS 5.0)
     add_definitions(-DOATPP_DISABLE_STD_PUT_TIME)
-endif()
+endif ()
 
 message("\n############################################################################\n")
 
@@ -115,7 +115,7 @@ message("oatpp version: '${OATPP_THIS_MODULE_VERSION}'")
 
 add_subdirectory(src)
 
-if(OATPP_BUILD_TESTS)
+if (OATPP_BUILD_TESTS)
     enable_testing()
     add_subdirectory(test)
-endif()
+endif ()
