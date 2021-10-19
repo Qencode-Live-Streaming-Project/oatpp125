@@ -108,7 +108,7 @@ write_basic_package_version_file("${OATPP_MODULE_NAME}ConfigVersion.cmake"
         COMPATIBILITY ExactVersion ## Use exact version matching.
         )
 
-## Take module-config.cmake.in file in this direcory as a template
+## Take module-config.cmake.in file in this directory as a template
 
 #configure_package_config_file(
 #            "${CMAKE_CURRENT_LIST_DIR}/module-config.cmake.in"

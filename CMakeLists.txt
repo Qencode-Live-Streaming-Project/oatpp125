@@ -8,7 +8,7 @@ string(REGEX REPLACE "#define OATPP_VERSION \"([0-9]+.[0-9]+.[0-9]+)\"$" "\\1" o
 ## use these variables to configure module installation
 
 set(OATPP_THIS_MODULE_NAME oatpp) ## name of the module (also name of folders in installation dirs)
-set(OATPP_THIS_MODULE_VERSION ${oatpp_VERSION}) ## version of the module (also sufix of folders in installation dirs)
+set(OATPP_THIS_MODULE_VERSION ${oatpp_VERSION}) ## version of the module (also suffix of folders in installation dirs)
 set(OATPP_THIS_MODULE_LIBRARIES oatpp oatpp-test) ## list of libraries to find when find_package is called
 set(OATPP_THIS_MODULE_TARGETS oatpp oatpp-test) ## list of targets to install
 set(OATPP_THIS_MODULE_DIRECTORIES oatpp oatpp-test) ## list of directories to install
