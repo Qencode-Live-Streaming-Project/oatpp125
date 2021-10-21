@@ -25,8 +25,8 @@
 #ifndef oatpp_parser_json_mapping_ObjectMapper_hpp
 #define oatpp_parser_json_mapping_ObjectMapper_hpp
 
-#include "./Serializer.hpp"
-#include "./Deserializer.hpp"
+#include "Serializer.hpp"
+#include "Deserializer.hpp"
 
 #include "oatpp/core/data/mapping/ObjectMapper.hpp"
 

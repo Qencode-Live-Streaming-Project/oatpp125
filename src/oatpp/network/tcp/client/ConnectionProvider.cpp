@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "./ConnectionProvider.hpp"
+#include "ConnectionProvider.hpp"
 
 #include "oatpp/network/tcp/Connection.hpp"
 #include "oatpp/core/utils/ConversionUtils.hpp"

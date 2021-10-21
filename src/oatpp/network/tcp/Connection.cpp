@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "./Connection.hpp"
+#include "Connection.hpp"
 
 #if defined(WIN32) || defined(_WIN32)
   #include <io.h>

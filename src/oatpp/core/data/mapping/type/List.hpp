@@ -25,7 +25,7 @@
 #ifndef oatpp_data_mapping_type_List_hpp
 #define oatpp_data_mapping_type_List_hpp
 
-#include "./Type.hpp"
+#include "Type.hpp"
 
 #include <list>
 #include <initializer_list>

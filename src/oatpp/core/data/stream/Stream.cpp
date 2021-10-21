@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "./Stream.hpp"
+#include "Stream.hpp"
 #include "oatpp/core/utils/ConversionUtils.hpp"
 
 namespace oatpp { namespace data{ namespace stream {

@@ -25,7 +25,7 @@
 #ifndef oatpp_web_url_mapping_Router_hpp
 #define oatpp_web_url_mapping_Router_hpp
 
-#include "./Pattern.hpp"
+#include "Pattern.hpp"
 
 #include "oatpp/core/Types.hpp"
 

@@ -25,7 +25,7 @@
 #ifndef oatpp_data_type_Primitive_hpp
 #define oatpp_data_type_Primitive_hpp
 
-#include "./Type.hpp"
+#include "Type.hpp"
 
 #include "oatpp/core/base/memory/ObjectPool.hpp"
 #include "oatpp/core/base/Countable.hpp"

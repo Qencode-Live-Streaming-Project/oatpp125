@@ -25,7 +25,7 @@
 #ifndef oatpp_web_protocol_http_outgoing_MultipartBody_hpp
 #define oatpp_web_protocol_http_outgoing_MultipartBody_hpp
 
-#include "./Body.hpp"
+#include "Body.hpp"
 
 #include "oatpp/web/mime/multipart/Multipart.hpp"
 #include "oatpp/core/data/stream/BufferStream.hpp"

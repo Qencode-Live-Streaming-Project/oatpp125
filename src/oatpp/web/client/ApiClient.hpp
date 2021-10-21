@@ -25,7 +25,7 @@
 #ifndef oatpp_web_client_Client_hpp
 #define oatpp_web_client_Client_hpp
 
-#include "./RequestExecutor.hpp"
+#include "RequestExecutor.hpp"
 
 #include "oatpp/web/protocol/http/incoming/Response.hpp"
 #include "oatpp/web/protocol/http/outgoing/BufferBody.hpp"

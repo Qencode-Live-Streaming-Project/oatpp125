@@ -26,7 +26,7 @@
 #define oatpp_base_Countable
 
 #include <memory>
-#include "./Environment.hpp"
+#include "Environment.hpp"
 
 namespace oatpp { namespace base{
 

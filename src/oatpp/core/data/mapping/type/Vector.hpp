@@ -25,7 +25,7 @@
 #ifndef oatpp_data_mapping_type_Vector_hpp
 #define oatpp_data_mapping_type_Vector_hpp
 
-#include "./Type.hpp"
+#include "Type.hpp"
 
 #include <vector>
 #include <initializer_list>

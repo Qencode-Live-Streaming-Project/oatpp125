@@ -25,7 +25,7 @@
 #ifndef oatpp_test_web_app_Controller_hpp
 #define oatpp_test_web_app_Controller_hpp
 
-#include "./DTOs.hpp"
+#include "DTOs.hpp"
 
 #include "oatpp/web/mime/multipart/FileStreamProvider.hpp"
 #include "oatpp/web/mime/multipart/InMemoryPartReader.hpp"

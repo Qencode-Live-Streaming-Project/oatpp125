@@ -25,11 +25,11 @@
 #ifndef oatpp_web_server_HttpProcessor_hpp
 #define oatpp_web_server_HttpProcessor_hpp
 
-#include "./HttpRouter.hpp"
+#include "HttpRouter.hpp"
 
-#include "./interceptor/RequestInterceptor.hpp"
-#include "./interceptor/ResponseInterceptor.hpp"
-#include "./handler/ErrorHandler.hpp"
+#include "interceptor/RequestInterceptor.hpp"
+#include "interceptor/ResponseInterceptor.hpp"
+#include "handler/ErrorHandler.hpp"
 
 #include "oatpp/web/protocol/http/encoding/ProviderCollection.hpp"
 

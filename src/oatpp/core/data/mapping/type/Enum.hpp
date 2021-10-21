@@ -25,8 +25,8 @@
 #ifndef oatpp_data_mapping_type_Enum_hpp
 #define oatpp_data_mapping_type_Enum_hpp
 
-#include "./Any.hpp"
-#include "./Primitive.hpp"
+#include "Any.hpp"
+#include "Primitive.hpp"
 #include "oatpp/core/data/share/MemoryLabel.hpp"
 
 #include <type_traits>

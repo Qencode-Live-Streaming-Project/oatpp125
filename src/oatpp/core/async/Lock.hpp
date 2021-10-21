@@ -25,7 +25,7 @@
 #ifndef oatpp_async_Mutex_hpp
 #define oatpp_async_Mutex_hpp
 
-#include "./CoroutineWaitList.hpp"
+#include "CoroutineWaitList.hpp"
 
 namespace oatpp { namespace async {
 

@@ -25,7 +25,7 @@
 #ifndef oatpp_web_server_rest_Controller_hpp
 #define oatpp_web_server_rest_Controller_hpp
 
-#include "./Endpoint.hpp"
+#include "Endpoint.hpp"
 
 #include "oatpp/web/server/handler/AuthorizationHandler.hpp"
 #include "oatpp/web/server/handler/ErrorHandler.hpp"

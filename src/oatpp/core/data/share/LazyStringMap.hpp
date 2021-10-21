@@ -25,7 +25,7 @@
 #ifndef oatpp_data_share_LazyStringMap_hpp
 #define oatpp_data_share_LazyStringMap_hpp
 
-#include "./MemoryLabel.hpp"
+#include "MemoryLabel.hpp"
 #include "oatpp/core/concurrency/SpinLock.hpp"
 
 #include <map>

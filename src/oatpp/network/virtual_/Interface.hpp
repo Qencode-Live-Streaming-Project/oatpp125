@@ -25,7 +25,7 @@
 #ifndef oatpp_network_virtual__Interface_hpp
 #define oatpp_network_virtual__Interface_hpp
 
-#include "./Socket.hpp"
+#include "Socket.hpp"
 
 #include "oatpp/core/collection/LinkedList.hpp"
 

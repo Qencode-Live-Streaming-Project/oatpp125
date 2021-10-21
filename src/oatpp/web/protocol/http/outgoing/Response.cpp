@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "./Response.hpp"
+#include "Response.hpp"
 
 #include "oatpp/web/protocol/http/encoding/Chunked.hpp"
 #include "oatpp/core/utils/ConversionUtils.hpp"

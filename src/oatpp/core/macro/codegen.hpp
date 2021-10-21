@@ -38,7 +38,7 @@
 #ifndef oatpp_macro_codegen_hpp
 #define oatpp_macro_codegen_hpp
 
-#include "./basic.hpp"
+#include "basic.hpp"
 
 #define OATPP_CODEGEN_DEFINE_ApiClient "oatpp/codegen/ApiClient_define.hpp"
 #define OATPP_CODEGEN_UNDEF_ApiClient "oatpp/codegen/ApiClient_undef.hpp"

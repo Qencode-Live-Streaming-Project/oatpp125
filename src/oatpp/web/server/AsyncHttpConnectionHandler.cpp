@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "./AsyncHttpConnectionHandler.hpp"
+#include "AsyncHttpConnectionHandler.hpp"
 
 namespace oatpp { namespace web { namespace server {
 

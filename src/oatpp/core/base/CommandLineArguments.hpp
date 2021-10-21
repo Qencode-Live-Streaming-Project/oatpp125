@@ -25,7 +25,7 @@
 #ifndef oatpp_base_CommandLineArguments_hpp
 #define oatpp_base_CommandLineArguments_hpp
 
-#include "./Environment.hpp"
+#include "Environment.hpp"
 
 namespace oatpp { namespace base {
 

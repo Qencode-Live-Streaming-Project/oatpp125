@@ -25,7 +25,7 @@
 #ifndef oatpp_data_mapping_type_Any_hpp
 #define oatpp_data_mapping_type_Any_hpp
 
-#include "./Type.hpp"
+#include "Type.hpp"
 
 #include "oatpp/core/collection/LinkedList.hpp"
 

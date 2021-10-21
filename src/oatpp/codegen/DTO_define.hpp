@@ -45,5 +45,5 @@
 #include "oatpp/core/macro/basic.hpp"
 #include "oatpp/core/macro/codegen.hpp"
 
-#include "./dto/base_define.hpp"
-#include "./dto/enum_define.hpp"
+#include "dto/base_define.hpp"
+#include "dto/enum_define.hpp"

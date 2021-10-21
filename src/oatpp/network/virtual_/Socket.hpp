@@ -25,7 +25,7 @@
 #ifndef oatpp_network_virtual__Socket_hpp
 #define oatpp_network_virtual__Socket_hpp
 
-#include "./Pipe.hpp"
+#include "Pipe.hpp"
 
 namespace oatpp { namespace network { namespace virtual_ {
 

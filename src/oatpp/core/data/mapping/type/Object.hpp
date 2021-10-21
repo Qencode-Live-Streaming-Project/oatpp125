@@ -25,16 +25,16 @@
 #ifndef oatpp_data_type_Object_hpp
 #define oatpp_data_type_Object_hpp
 
-#include "./Type.hpp"
+#include "Type.hpp"
 
-#include "./Any.hpp"
-#include "./Primitive.hpp"
-#include "./Enum.hpp"
-#include "./UnorderedMap.hpp"
-#include "./PairList.hpp"
-#include "./List.hpp"
-#include "./Vector.hpp"
-#include "./UnorderedSet.hpp"
+#include "Any.hpp"
+#include "Primitive.hpp"
+#include "Enum.hpp"
+#include "UnorderedMap.hpp"
+#include "PairList.hpp"
+#include "List.hpp"
+#include "Vector.hpp"
+#include "UnorderedSet.hpp"
 
 #include "oatpp/core/base/memory/ObjectPool.hpp"
 #include "oatpp/core/base/Countable.hpp"

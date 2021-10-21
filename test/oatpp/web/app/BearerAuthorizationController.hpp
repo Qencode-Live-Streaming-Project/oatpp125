@@ -25,7 +25,7 @@
 #ifndef oatpp_test_web_app_BearerAuthorizationController_hpp
 #define oatpp_test_web_app_BearerAuthorizationController_hpp
 
-#include "./DTOs.hpp"
+#include "DTOs.hpp"
 
 #include "oatpp/web/server/api/ApiController.hpp"
 #include "oatpp/parser/json/mapping/ObjectMapper.hpp"

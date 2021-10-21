@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "./ConnectionProvider.hpp"
+#include "ConnectionProvider.hpp"
 
 namespace oatpp { namespace network {
   

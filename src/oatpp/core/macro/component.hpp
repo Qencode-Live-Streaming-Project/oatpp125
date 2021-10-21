@@ -37,7 +37,7 @@
 #ifndef oatpp_macro_component_hpp
 #define oatpp_macro_component_hpp
 
-#include "./basic.hpp"
+#include "basic.hpp"
 #include "oatpp/core/base/Environment.hpp"
 
 #define OATPP_MACRO_GET_COMPONENT_1(TYPE) \

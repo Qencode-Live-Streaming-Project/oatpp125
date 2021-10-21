@@ -25,7 +25,7 @@
 #ifndef oatpp_web_protocol_http_outgoing_ResponseFactory_hpp
 #define oatpp_web_protocol_http_outgoing_ResponseFactory_hpp
 
-#include "./Response.hpp"
+#include "Response.hpp"
 
 #include "oatpp/core/data/mapping/ObjectMapper.hpp"
 #include "oatpp/core/data/mapping/type/Type.hpp"

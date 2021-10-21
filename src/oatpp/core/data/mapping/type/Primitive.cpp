@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "./Primitive.hpp"
+#include "Primitive.hpp"
 
 #include "oatpp/core/utils/ConversionUtils.hpp"
 

@@ -26,7 +26,7 @@
 #ifndef oatpp_base_Environment_hpp
 #define oatpp_base_Environment_hpp
 
-#include "./Config.hpp"
+#include "Config.hpp"
 
 #include <cstdio>
 #include <atomic>

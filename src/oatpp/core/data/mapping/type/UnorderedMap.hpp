@@ -25,7 +25,7 @@
 #ifndef oatpp_data_mapping_type_UnorderedMap_hpp
 #define oatpp_data_mapping_type_UnorderedMap_hpp
 
-#include "./Type.hpp"
+#include "Type.hpp"
 
 #include <unordered_map>
 #include <initializer_list>

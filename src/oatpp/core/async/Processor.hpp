@@ -25,7 +25,7 @@
 #ifndef oatpp_async_Processor_hpp
 #define oatpp_async_Processor_hpp
 
-#include "./Coroutine.hpp"
+#include "Coroutine.hpp"
 #include "oatpp/core/collection/FastQueue.hpp"
 
 #include <mutex>

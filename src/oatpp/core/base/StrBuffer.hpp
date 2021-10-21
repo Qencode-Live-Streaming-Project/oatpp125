@@ -26,7 +26,7 @@
 #define oatpp_base_StrBuffer_hpp
 
 #include "memory/ObjectPool.hpp"
-#include "./Countable.hpp"
+#include "Countable.hpp"
 
 #include <cstring>
 

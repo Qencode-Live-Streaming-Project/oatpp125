@@ -25,7 +25,7 @@
 #ifndef oatpp_async_Executor_hpp
 #define oatpp_async_Executor_hpp
 
-#include "./Processor.hpp"
+#include "Processor.hpp"
 #include "oatpp/core/async/worker/Worker.hpp"
 
 #include "oatpp/core/concurrency/SpinLock.hpp"

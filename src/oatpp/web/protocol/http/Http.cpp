@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "./Http.hpp"
+#include "Http.hpp"
 
 #include "oatpp/core/data/stream/ChunkedBuffer.hpp"
 #include "oatpp/core/utils/ConversionUtils.hpp"

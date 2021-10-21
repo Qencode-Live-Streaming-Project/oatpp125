@@ -25,7 +25,7 @@
 #ifndef oatpp_test_web_app_Client_hpp
 #define oatpp_test_web_app_Client_hpp
 
-#include "./DTOs.hpp"
+#include "DTOs.hpp"
 
 #include "oatpp/web/client/ApiClient.hpp"
 #include "oatpp/web/protocol/http/outgoing/MultipartBody.hpp"

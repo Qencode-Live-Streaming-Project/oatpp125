@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "./ConnectionProvider.hpp"
+#include "ConnectionProvider.hpp"
 
 #include "oatpp/core/utils/ConversionUtils.hpp"
 

@@ -25,8 +25,8 @@
 #ifndef oatpp_base_memory_ObjectPool_hpp
 #define oatpp_base_memory_ObjectPool_hpp
 
-#include "./Allocator.hpp"
-#include "./MemoryPool.hpp"
+#include "Allocator.hpp"
+#include "MemoryPool.hpp"
 
 namespace oatpp { namespace base { namespace memory {
 

@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "./ErrorHandler.hpp"
+#include "ErrorHandler.hpp"
 
 #include "oatpp/web/protocol/http/outgoing/BufferBody.hpp"
 

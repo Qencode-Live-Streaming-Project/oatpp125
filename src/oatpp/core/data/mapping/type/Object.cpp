@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "./Object.hpp"
+#include "Object.hpp"
 
 namespace oatpp { namespace data { namespace mapping { namespace type {
 

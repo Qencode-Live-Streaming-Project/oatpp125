@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "./ApiController.hpp"
+#include "ApiController.hpp"
 #include <oatpp/web/server/handler/ErrorHandler.hpp>
 
 namespace oatpp { namespace web { namespace server { namespace api {
